@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-espresso: #3b2a1a;
+  --color-brand-accent: #c1852f;
+  --color-brand-off-white: #faf7f2;
+  --color-brand-charcoal: #221812;
+  --color-brand-warm-gray: #8a7b6c;
+  --font-display: 'Albert Sans', sans-serif;
+  --font-body: 'Albert Sans', sans-serif;
+  --radius-brand: 8px;
+  --shadow-brand: 0 2px 8px rgba(34, 24, 18, 0.12);
+}
+
+:root {
+  font-family: 'Albert Sans', sans-serif;
+  color: #221812;
+  background: #faf7f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input {
+  font: inherit;
+}
